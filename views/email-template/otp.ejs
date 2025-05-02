@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0;background-color: #f5f5f5;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td style="padding: 30px 0;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
+                style="border:none;border-collapse: collapse;box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);">
+                
+                <tr style="display: flex;justify-content: left;align-items: center;text-align: left;padding: 20px 32px;background-color: #1976d2;">
+                    <td style="display: flex;justify-content: left;align-items: center;text-align: left; width: auto;">
+                    <img src="#" alt="icon-logo" style="width:auto;height:44px;margin-right: 8px;">
+                    </td>
+                </tr>
+                <tr style="display: flex;justify-content: left;align-items: center;background-color: #ffffff;padding: 40px 32px;">
+                    <td style="font-size:16px;font-weight: 400;line-height:1.5;font-family: 'Roboto', sans-serif;margin: 0 0 0 0;width: 88%;">
+                        <h1 style="display: block;font-size: 28px;font-weight: 600;text-transform: capitalize;font-family: 'Roboto', sans-serif;margin: 0 0 20px 0;color: #2d2d2d;"><%= header %></h1>
+                        <h2 style="display: block;font-size: 20px;font-weight: 500;text-transform: capitalize;font-family: 'Roboto', sans-serif;margin: 0 0 8px 0;color: #474747;">Hello,
+                            <span style="font-size: 20px;font-weight: 500;text-transform: capitalize;font-family: 'Roboto', sans-serif;margin: 0 0 8px 0;color: #474747;"><%= receiver %></span>
+                        </h2>
+                        <p style="display: block;font-size:16px;font-weight: 400;line-height:1.5;font-family: 'Roboto', sans-serif;color: #474747;margin: 0 0 16px 0;">
+                            Your one time OTP for login is <span style="font-weight: 600;text-transform: capitalize;color: #1976d2;"><%= otp %></span>. This OTP is valid for 10 minutes only. Please don't share this OTP with anyone.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px 32px;text-align: center;background-color: #011345; display: block">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr style="display: block; width: auto">
+                                <td style="display: block; width: auto">
+                                    <p style="font-family: 'Roboto', sans-serif;font-size: 14px;font-weight: 500;text-transform: capitalize;text-align: center;color: #f8f8f8;margin: 0 0 3px 0;"><%= footerHeader %></p>
+                                    <p style="font-family: 'Roboto', sans-serif;font-size: 12px;font-weight: 300;text-transform: capitalize;text-align: center;color: #f8f8f8;margin: 0 0 0 0;"><%= footerSubHeader %></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
